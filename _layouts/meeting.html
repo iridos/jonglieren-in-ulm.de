@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<ul>
+<li>Termin: {{ page.when }}</li>
+<li>Ort: {{ page.where }}</li>
+<li>Zielgruppe: {{ page.who }}</li>
+{% if page.web %}
+<li>Web: <a href="{{ page.web }}">{{ page.web }}</a></li>
+{% endif %}
+{% if page.contact %}
+<li>Kontakt: <a href="{{ page.email }}">{{ page.contact }}</a></li>
+{% endif %}
+</ul>
+{% if page.map %}
+<p>{{ page.map }}</p>
+{% endif %}
