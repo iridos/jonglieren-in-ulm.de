@@ -31,6 +31,13 @@ a:hover {
     margin-top: 128px;
     margin-bottom: 64px;
 }
+#content ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+#content li {
+    list-style-type: none;
+}
 #sidebar {
     float: right;
     width: 256px;
