@@ -3,9 +3,6 @@ layout: default
 title: Ulmer Jonglierconventions
 ---
 
-{{ page.title }}
-================
-
 **13. Ulmer Jonglier- und Artistikconvention**<br />
 *5. &#8211; 7. November 2010*<br />
 Ort: Keplerschule<br />

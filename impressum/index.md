@@ -3,9 +3,6 @@ layout: default
 title: Impressum
 ---
 
-{{ page.title }}
-================
-
 Verantwortlich für den Inhalt:
 
 Enrico Pilz  
