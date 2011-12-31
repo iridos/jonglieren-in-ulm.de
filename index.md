@@ -5,8 +5,9 @@ title: Jonglieren in Ulm
 
 <div>
 {% for post in site.posts %}
-    <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-    <p>{{ post.content | strip_html | truncatewords: 32 }} <a href="{{ post.url }}">mehr</a></p>
+    <p>{{ post.content }}</p>
+    <p class="signatur">{{ post.author }} - {{ post.date| date: "%d.%m.%Y" }}</p>
 {% endfor %}
 </div>

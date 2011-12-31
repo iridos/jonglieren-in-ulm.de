@@ -27,9 +27,9 @@ a:hover {
 }
 #content {
     float: left;
-    width: 640px;
-    margin-top: 128px;
-    margin-bottom: 64px;
+    width: 672px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 #content ul {
     margin-left: 0;
@@ -38,16 +38,24 @@ a:hover {
 #content li {
     list-style-type: none;
 }
+.signatur {
+    font-size: small;
+    margin-bottom: 64px;
+}
 #sidebar {
     float: right;
     width: 256px;
     border-left: #CCC solid 1px;
     padding-left: 32px;
-    margin-top: 128px;
-    margin-bottom: 64px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+#sidebar p {
+    margin-top: 16px;
 }
 #nav {
     margin-top: 64px;
+    padding-bottom: 16px;
 }
 #nav ul {
     margin: 0;
