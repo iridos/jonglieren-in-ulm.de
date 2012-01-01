@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Jonglieren in Ulm
+title: Jonglieren in Ulm Blub
 ---
 
 <div>
