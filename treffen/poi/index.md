@@ -1,7 +1,7 @@
 ---
 layout: meeting
 title: Poi & Co
-when: Sonntags 16:00 - 18:00
+when: Sonntags 14:00 - 16:00
 where: Glacis, Neu-Ulm
 who: Poi, Staffs, Buugeng, Hula, - alles mögliche Spielzeug
 contact: Maya
