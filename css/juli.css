@@ -1,0 +1,14 @@
+html {
+    background: url('/media/images/juli.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.profile {
+    margin-left: 120px;
+    top: 120px;
+    width: 500px;
+}
+
