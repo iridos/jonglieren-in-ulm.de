@@ -1,9 +1,14 @@
 
-.profile {
+body {
+    padding: 0;
+    margin: 0;
     color: white;
     font-family: sans-serif;
     font-size: 14px;
     line-height; 1.5;
+}
+
+.profile {
     border-radius: 5px;
     position: absolute;
     padding: 20px;
@@ -16,3 +21,43 @@
     border-radius: 5px;
 }
 
+.menu {
+    width: 100%;
+    position: absolute;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0 none;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.languages {
+    padding: 7px;
+    margin: 0;
+    float: right;
+}
+
+.languages li {
+    list-style: none outside none;
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+.languages a:link {
+    color: white;
+}
+
+.languages a:visited {
+    color: #CCC;
+}
+
+.languages a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.languages a:hover {
+    color: white;
+    text-decoration: none;
+}
