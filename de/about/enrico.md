@@ -4,6 +4,9 @@ nick: Enrico
 background: leipzig_2010.jpg
 css: enrico
 lang: de
+left: 390px
+top: 250px
+width: 500px
 ---
 
 ist der Typ der nicht viel Schlaf bekommt

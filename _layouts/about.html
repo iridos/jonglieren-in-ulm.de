@@ -4,7 +4,15 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>{{ page.nick }}</title>
         <link rel="stylesheet" type="text/css" media="screen" href="/css/about.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="/css/{{ page.css }}.css" />
+        <style type="text/css" media="screen">
+            html {
+                background: url('/media/images/{{ page.background }}') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        </style>
         <link rel="index" title="Jonglieren in Ulm" href="http://www.jonglieren-in-ulm.de/" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </head>
@@ -23,6 +31,9 @@
             {% if page.lang == 'de' %}
             background-color: rgba(255, 79, 0, 0.66);
             {% endif %}
+            margin-left: {% if page.left %} {{ page.left }} {% else %} 120px {% endif %};
+            top: {% if page.top %} {{ page.top }} {% else %} 120px {% endif %};
+            width: {% if page.width %} {{ page.width }} {% else %} 500px {% endif %};
             ">
             <div class="profile-head">
                 <h1>{{ page.nick }}</h1>

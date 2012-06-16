@@ -4,6 +4,9 @@ nick: Enrico
 background: leipzig_2010.jpg
 css: enrico
 lang: en
+left: 390px
+top: 250px
+width: 500px
 ---
 
 is the guy who doesn't get a lot of sleep
