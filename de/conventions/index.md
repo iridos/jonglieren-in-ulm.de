@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Ulmer Jonglierconventions
+css: conventions
+background: 12.jpg
+lang: de
 ---
 
 **13. Ulmer Jonglier- und Artistikconvention**<br />
