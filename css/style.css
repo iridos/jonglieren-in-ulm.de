@@ -1,3 +1,4 @@
+
 body {
     color: #333;
     font-family: sans-serif;
@@ -27,9 +28,12 @@ a:hover {
 }
 #content {
     float: left;
-    width: 672px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    width: 720px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 2em;
+    border-radius: 1em;
+    overflow: auto;
 }
 #content ul {
     margin-left: 0;
@@ -69,6 +73,143 @@ a:hover {
 }
 #footer {
     clear: both;
-    border-top: #CCC solid 1px;
-    padding: 16px 0 32px 0;
+    padding: 7px;
+    width: 100%;
+    height: 32px;
+    margin: 0 auto;
+    border: 0 none;
+    background-color: rgba(42, 42, 42, 0.8);
+    position: fixed;
+    bottom: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height; 1.5;
+}
+
+.profile {
+    border-radius: 5px;
+    position: absolute;
+    padding: 20px;
+}
+
+.profile-head {
+}
+
+.profile p {
+    border-radius: 5px;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    height: 32px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0 none;
+    background-color: rgba(42, 42, 42, 0.8);
+}
+
+.languages {
+    padding: 7px;
+    margin: 0;
+    float: right;
+}
+
+.languages li {
+    list-style: none outside none;
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+.languages a:link {
+    color: white;
+}
+
+.languages a:visited {
+    color: #CCC;
+}
+
+.languages a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.languages a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 6px;
+}
+
+h1 a {
+    color: white;
+}
+
+.navi {
+    padding: 7px;
+    margin: 0;
+    margin-left: 20px;
+    float: left;
+}
+
+.navi li {
+    list-style: none outside none;
+    display: inline;
+    margin: 0;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.navi a:link {
+    color: rgb(255, 79, 0);
+}
+
+.navi a:visited {
+    color: #CCC;
+}
+
+.navi a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.navi a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.boxplot {
+    margin: 0 auto;
+    top: 64px;
+    padding: 0;
+    width: 720px;
+}
+
+.boxline {
+    clear: both;
+}
+
+.box {
+    float: left;
+    background-color: rgba(255, 79, 0, 0.66);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.current {
+    text-decoration: underline;
 }

@@ -1,2 +1,32 @@
 markdown: maruku
 auto: true
+
+locales:
+  de:
+    nav:
+    - text: "Treffen"
+      url: /de/treffen/
+    - text: "Über uns"
+      url: /de/about/
+    - text: "Conventions"
+      url: /de/conventions/
+    - text: "Mailingliste"
+      url: /de/mailingliste/
+    - text: "Emailadressen"
+      url: /de/emailadressen/
+    - text: "Impressum"
+      url: /de/impressum/
+  en:
+    nav:
+    - text: "Get together"
+      url: /en/treffen/
+    - text: "About"
+      url: /en/about/
+    - text: "Conventions"
+      url: /en/conventions/
+    - text: "Mailing list"
+      url: /en/mailingliste/
+    - text: "Email adress"
+      url: /en/emailadressen/
+    - text: "Impressum"
+      url: /en/impressum/
