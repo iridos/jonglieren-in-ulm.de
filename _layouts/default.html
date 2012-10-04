@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE">
     <head profile="http://gmpg.org/xfn/11">
         <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <base href="{{ site.baseurl }}" />
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
-        <link rel="index" title="Jonglieren in Ulm" href="http://www.jonglieren-in-ulm.de/" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="stylesheet" type="text/css" media="screen" href="{{ site.baseurl }}/css/style.css" />
+        <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico" />
     </head>
 
     <body>
@@ -18,27 +18,31 @@
 
                 <div id="sidebar">
                     <div id="title">
-                        <p><strong><a href="http://www.jonglieren-in-ulm.de">Jonglieren in Ulm</a></strong></p>
-                        <p>Soll alle ansprechen, die sich ein bisschen oder mehr für Jonglieren in Ulm interessieren.</p>
+                        <p><strong><a href="{{ site.baseurl }}/">Jonglieren in Ulm</a></strong></p>
+                        <p>Für alle, die sich ein bisschen oder mehr für Jonglieren in Ulm interessieren.</p>
                     </div>
 
                     <div id="nav">
                         <ul>
-                            <li><a href="/" title="Aktuelles">Aktuelles</a></li>
-                            <li><a href="/de/treffen/" title="Treffen">Treffen</a>
+                            <li><a href="{{ site.baseurl }}/." title="Aktuelles">Aktuelles</a></li>
+                            <li><a href="{{ site.baseurl }}/de/mailingliste/" title="Mailingliste">Mailingliste</a></li>
+                            <li><a href="{{ site.baseurl }}/de/treffen/" title="Treffen">Treffen</a>
                             <ul>
-                                <li><a href="/de/treffen/hochschulsport/" title="Hochschulsport">Hochschulsport</a></li>
-                                <li><a href="/de/treffen/serrando/" title="Serrando">Serrando</a></li>
-                                <li><a href="/de/treffen/friedrichsau/" title="Friedrichsau">Friedrichsau</a></li>
-                                <li><a href="/de/treffen/poi/" title="Poi &amp; Co.">Poi &#038; Co.</a></li>
-                                <li><a href="/de/treffen/blaustein/" title="Blaustein">Blaustein</a></li>
-                                <li><a href="/de/treffen/volleyclub/" title="Volleyclub">Volleyclub</a></li>
+                                <li><a href="{{ site.baseurl }}/de/treffen/serrando/" title="Serrando">Serrando (Di)</a></li>
+                                <li><a href="{{ site.baseurl }}/de/treffen/hochschulsport/" title="Hochschulsport (Do)">Uni-Hochschulsport (Do)</a></li>
+                                <li><a href="{{ site.baseurl }}/de/treffen/poi/" title="Poi &amp; Co.">Glacis: Poi &#038; Co. (So)</a></li>
+                                <li><a href="{{ site.baseurl }}/de/treffen/friedrichsau/" title="Friedrichsau">Friedrichsau (draussen)</a></li>
                             </ul>
                             </li>
-                            <li><a href="/de/conventions/" title="Conventions">Conventions</a></li>
-                            <li><a href="/de/mailingliste/" title="Mailingliste">Mailingliste</a></li>
-                            <li><a href="/de/emailadressen/" title="Emailadressen">Emailadressen</a></li>
-                            <li><a href="/de/impressum/" title="Impressum">Impressum</a></li>
+                            <li><a href="{{ site.baseurl }}/de/kinder/" title="Kurse/Freizeiten für Kinder">Kurse/Freizeiten für Kinder</a>
+                            <ul>
+                                <li><a href="{{ site.baseurl }}/de/kinder/blaustein/" title="Blaustein">Blaustein (Mo)</a></li>
+                                <li><a href="{{ site.baseurl }}/de/kinder/serrando/" title="Serrando">Serrando (Di)</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="{{ site.baseurl }}/de/conventions/" title="Rückblick Conventions Ulm">Rückblick Conventions Ulm</a></li>
+                            <!--li><a href="{{ site.baseurl }}/de/emailadressen/" title="Emailadressen">Emailadressen</a></li-->
+                            <li><a href="{{ site.baseurl }}/de/impressum/" title="Impressum">Impressum</a></li>
                             </li>
                         </ul>
                     </div>
@@ -46,11 +50,11 @@
             </div>
 
             <div id="footer">
-                &copy; 2010 &ndash; 2011 |
+                &copy; 2010 &ndash; 2013 |
                 generator <a href="https://github.com/mojombo/jekyll" rel="generator">jekyll</a> |
                 design <a href="http://www.forma-simplex.de/">simple</a> |
                 email <a href="mailto:info@jonglieren-in-ulm.de/">info@jonglieren-in-ulm.de</a> |
-                <a href="http://www.jonglieren-in-ulm.de/">www.jonglieren-in-ulm.de</a>
+                <a href="{{ site.baseurl }}/">www.jonglieren-in-ulm.de</a>
             </div>
         </div>
     </body>

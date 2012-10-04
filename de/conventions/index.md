@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ulmer Jonglierconventions
+title: Rückblick auf Ulmer Jonglierconventions
 css: conventions
 background: 12.jpg
 lang: de
